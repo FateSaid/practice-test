@@ -1,4 +1,4 @@
-function caesarCipher(string, num) {
+export function caesarCipher(string, num) {
   let alphabet = createAlphabet();
 
   let cipher = shift(num);
